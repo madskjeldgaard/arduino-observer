@@ -1,0 +1,27 @@
+{
+  "name": "ArduinoObserver",
+  "version": "0.1.0",
+  "description": "Observer style design pattern helpers for Arduino",
+  "keywords": "observer, observable, Arduino",
+  "repository":
+  {
+    "type": "git",
+    "url": "https://github.com/madskjeldgaard/arduino-observer"
+  },
+  "authors":
+  [
+    {
+      "name": "Mads Kjeldgaard",
+      "email": "madskjeldgaardnielsen@gmail.com",
+      "url": "https://www.madskjeldgaard.dk/",
+      "maintainer": true
+    }
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "hideakitai/Debouncer": "^0.3.2",
+    "dxinteractive/ResponsiveAnalogRead": "*"
+  },
+  "frameworks": ["arduino"],
+  "platforms": "*"
+}
