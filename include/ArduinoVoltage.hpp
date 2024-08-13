@@ -38,7 +38,7 @@ public:
            static_cast<float>(maxValue);
   }
 
-  void setAnalogResolution(auto bits) {
+  void setAnalogResolution(int bits) {
     resolutionBits = bits;
     maxValue = pow(2, bits);
     mVoltage.setAnalogResolution(maxValue);
